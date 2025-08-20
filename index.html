@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AlgoVisual</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-dark border-bottom border-body">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: aliceblue">
+          AlgoVisual
+        </a>
+      </div>
+    </nav>
+
+    <br />
+    <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Linear Search</h5>
+            <p class="card-text">
+              Linear search checks each item in a list one by one until it finds
+              the target or reaches the end. It’s simple but can be slow for
+              large lists.
+            </p>
+            <a href="linearSearch/linearSearch.html" class="btn btn-primary"
+              >Visualise</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Binary Search</h5>
+            <p class="card-text">
+              Binary search quickly finds a target in a sorted list by
+              repeatedly dividing the list in half and checking the middle
+              value. Needs ordered data.
+            </p>
+            <a href="binarySearch/binarySearch.html" class="btn btn-primary"
+              >Visualise</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <div class="row">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Bubble Sort</h5>
+            <p class="card-text">
+              Bubble sort repeatedly compares and swaps adjacent elements if
+              they’re in the wrong order, slowly “bubbling” the largest values
+              to the end. It’s simple but inefficient for large datasets.
+            </p>
+            <a href="bubbleSort/bubbleSort.html" class="btn btn-primary"
+              >Visualise</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Selection Sort</h5>
+            <p class="card-text">
+              Selection sort repeatedly finds the smallest (or largest) element
+              from the unsorted part and swaps it with the first unsorted
+              element.
+            </p>
+            <a href="selectionSort/selectionSort.html" class="btn btn-primary"
+              >Visualise</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

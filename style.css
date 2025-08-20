@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(
+    135deg,
+    #0f2027,
+    #203a43,
+    #2c5364
+  ); /* Dark gradient */
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Default text color */
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.3); /* Dark transparent glass */
+  backdrop-filter: blur(12px); /* Frosted effect */
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle glass border */
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6); /* Deep shadow for dark mode */
+  color: #e0e0e0; /* Softer text color */
+  margin: 10px;
+}
+
+.card h5 {
+  color: #ffffff; /* Keep titles bright */
+}
+
+.btn.btn-primary {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.visualBox {
+  height: 375px;
+  width: 90vw; /* responsive to screen size */
+  max-width: 1400px;
+  margin: 20px auto;
+  border: solid #0f2027 2px;
+  background-color: #0f2027;
+  display: flex;
+  align-items: flex-end; /* Bars grow upward */
+  justify-content: space-between; /* evenly distribute */
+  padding: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.bar {
+  flex: 1; /* make bars auto-fit */
+  margin: 0 2px; /* spacing */
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  border-radius: 4px 4px 0 0;
+  transition: height 0.3s ease;
+}
